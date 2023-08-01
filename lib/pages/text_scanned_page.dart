@@ -16,7 +16,7 @@ class TextScannedPage extends StatelessWidget {
         backgroundColor: themeNotifier.isDark ? Colors.grey.shade900 : Colors.white,
         appBar: AppBar(
           backgroundColor: themeNotifier.isDark ? Colors.black54 : Colors.deepOrange,
-          title: Text("Text Scanned" , style: TextStyle(
+          title: Text("Text Recognition" , style: TextStyle(
             color: themeNotifier.isDark ? Colors.deepOrange : Colors.white,
           ),),
           leading: IconButton(
